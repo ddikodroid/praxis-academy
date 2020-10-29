@@ -7,6 +7,7 @@ Teknologi Informasi (TI) dikaitkan dengan penggunaan komputer untuk menyimpan da
 
 Meski manusia telah menyimpan dan mengolah informasi sejak tahun 3000 sebelum masehi, istilah Teknologi Informasi baru muncul pada era modern yaitu pada tahun 1958 pada sebuah artikel yang diterbitkan pada Harvard Business Review:
 >  _the new technology does not yet have a single established name. We shall call it information technology (IT)_ 
+
 -**Harold J. Leavitt dan Thomas L. Whisler**
 
 ### Software
