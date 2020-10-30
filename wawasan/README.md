@@ -44,5 +44,31 @@ Merupakan studi mengenai teori, percobaan dan teknik untuk membentuk dasar dari 
 ### Titik Temu
 Ilmu komputer berfokus pada teori komputasi dan desain dari sistem komputasional, serta merupakan salah satu bagian dari Teknik Informatika.
 
+## Pengembangan Software
 
-   
+Pengembangan software merupakan rangkaian proses pembuatan dan pemeliharaan aplikasi atau framework yang tediri dari membuat spesifikasi, melakukan desain, memprogram, membuat dokumentasi, melakukan testing, dan memperbaiki bug. Pengembangan software meliputi penelitian awal, pengembangan, prototyping, modifikasi, dan hal lain yang menghasilkan produk software.
+
+### Tujuan Pengembangan Software
+
+Terdapat tiga tujuan utama dibuatnya software, antara lain:
+1. Untuk kebutuhan klien bisnis (software kustom)
+2. Untuk kebutuhan pengguna potensial (software open source dan komersial)
+3. Untuk kebutuhan pribadi 
+
+### Metodologi
+
+Metodologi pengembangan software merupakan sebuah framework yang digunakan untuk membuat stuktur, perencanaan, dan kontrol proses dalam pengembangan sistem informasi.
+
+Sebagian besar metodologi memiliki tahapan pengembangan software yang sama dan sering disebut sebagai Software Development Life Cycle (SDLC), yaitu:
+1. Analisa masalah
+2. Penelitian pasar
+3. Mengumpulkan kebutuhan dari software
+4. Membuat rencana dan desain dari software
+5. Implementasi
+6. Testing
+7. Deployment
+8. Pemeliharaan dan perbaikan
+
+### Software Engineering
+
+Software engineering muncul karena adanya kebutuhan untuk memenuhi kontrol kualitas yang lebih baik terhadap software. Tujuannya untuk menerapkan pendekatan yang sistematis dalam pengembangan software.
