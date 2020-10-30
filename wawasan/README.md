@@ -103,5 +103,21 @@ Terdapat tiga role yang ada pada Scrum, antara lain:
 
 ## Extreme Programming (XP)
 
+Extreme programming merupakan metodologi pengembangan software yang berfokus pada pembuatan software yang berkualitas tinggi secara produktif dengan mengurangi perubahan requirement degnan cara development cycle yang singkat.
 
+### Aktivitas
 
+Terdapat tigas aktivitas dasar pada proses pengembangan software dengan XP, yaitu:
+1. Coding, digunakan untuk menemukan solusi paling baik dan membantu dalam komunikasi pada masalah programming yang dihadapi.
+2. Testing, terdiri dari **unit test** untuk mengecek apakah fitur bekerja sesuai keinginan dan **acceptance test** untuk keinginan customer sesuai dengan requirement yang dipahami oleh programmer.
+3. Listening, programmer harus mendengarkan dan memahami keinginan dari customer dan memberikan feedback terhadap customer mengenai apakah masalah dapat diselesaikan atau tidak.
+4. Designing, membuat struktur desain untuk mengakomodasi sistem yang kompleks agar tetap berjalan sesuai harapan, yaitu perubahan pada suatu bagian tidak memengaruhi bagian lain dari sistem.
+
+### Nilai-Nilai
+
+Terdapat lima nilai dari XP, yaitu:
+1. Communication, komunikasi dilakukan agar terjadi kesamaan pandangan antara developer dengan customer.
+2. Simplicity, disarankan untuk memulai dari solusi sederhana.
+3. Feedback, terdiri dari feedback dari sistem, dari customer, dan dari tim.
+4. Courage, keberanian untuk memutuskan suatu tindakan.
+5. Respect, saling menghormati antar anggota tim.
