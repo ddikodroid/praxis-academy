@@ -91,3 +91,17 @@ Agile merupakan pendekatan dalam pengembangan software dengan praktiknya adalah 
 10. Kesederhanaan merupakan hal penting
 11. Arsitektur, kebutuhan, dan desain yang bagus muncul dari tim yang mandiri
 12. Tim harus bisa semakin efektif seiring waktu
+
+##  Scrum
+
+Scrum merupakan salah satu framework agile dalam pengembangan software. Scrum didesain untuk tim dengan anggota kurang dari 10 orang dan membagi pekerjaan dalam beberapa goal dan rentang waktu tertentu (biasanya 2 minggu) untuk menyelesaikan goal tersebut yang disebut **sprint**. Progres dievaluasi melalui pertemuan harian yang disebut **daily scrum**.
+
+Terdapat tiga role yang ada pada Scrum, antara lain:
+1. Product owner yang mereprensentasikan pemangku kepentingan produk dan customer.
+2. Tim pengembang yang mengerjakan semua tugas pada setiap sprint.
+3. Scrum master yang bertugas untuk menjaga kelancaran dari tim dalam melaksanakan tugas.
+
+## Extreme Programming (XP)
+
+
+
