@@ -72,3 +72,22 @@ Sebagian besar metodologi memiliki tahapan pengembangan software yang sama dan s
 ### Software Engineering
 
 Software engineering muncul karena adanya kebutuhan untuk memenuhi kontrol kualitas yang lebih baik terhadap software. Tujuannya untuk menerapkan pendekatan yang sistematis dalam pengembangan software.
+
+## Agile Software Development
+
+Agile merupakan pendekatan dalam pengembangan software dengan praktiknya adalah menemukan requirement dan mengembangkan solusi secara kolaboratif dari tim dengan fungsi yang berbeda serta dengan keikutsertaan dari pengguna. Agile memungkinkan adanya perencanaan yang adaptif, pengembangan yang berangsur-angsur, delivery yg awal, dan peningkatan secara berlanjut, dan perubahan yang fleksibel terhadap respon.
+
+### Prinsip Agile Software Development
+
+1. Kepuasan pelanggan karena delivery software yang awal dan berkelanjutan
+2. Requirement bisa berubah
+3. Software delivery yang sering 
+4. Adanya interaksi yang dekat antara orang bisnis dan developer
+5. Proyek dibuat berdasarkan individu yang termotivasi sehingga harus ada kepercayaan
+6. Komunikasi secara face-to-face
+7. Keberhasilan progres dinilai dari software yang dapat digunakan
+8. Pengembangan secara berkelanjutan
+9. Memperhatikan desain dan teknikal secara terus menerus
+10. Kesederhanaan merupakan hal penting
+11. Arsitektur, kebutuhan, dan desain yang bagus muncul dari tim yang mandiri
+12. Tim harus bisa semakin efektif seiring waktu
