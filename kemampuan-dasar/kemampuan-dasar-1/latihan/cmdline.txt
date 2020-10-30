@@ -1,0 +1,493 @@
+    ~                                                                  15:27:18 
+❯ open /Applications/Safari.app/
+    ~                                                                  15:27:26 
+❯ curl http://www.google.com/doodles\#oodles/archive | grep -A5 'latest-doodle on' | grep 'img src' | sed s/.*'<img src="\/\/'/''/ | sed s/'" alt=".*'/''/ | pbcopy
+zsh: no matches found: s/.*<img src="\/\///
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100  297k  100  297k    0     0   182k      0  0:00:01  0:00:01 --:--:--  182k
+    ~                                               0|0|PIPE|1|0|0 ✔  15:28:10 
+❯ pbpaste >> tasklist.txt
+    ~                                                                  15:28:19 
+❯ mdfind -onlyin ~/Documents screenshot
+/Users/diko/Documents/traffic-density-classification_web-app/venv/lib/python3.6/site-packages/tensorboard/plugins/beholder/resources/no-data.png
+/Users/diko/Documents/traffic-density-classification_web-app/venv/lib/python3.6/site-packages/tensorboard/plugins/beholder/resources/frame-missing.png
+/Users/diko/Documents/traffic-density-classification_web-app/venv/lib/python3.6/site-packages/tensorboard/plugins/beholder/resources/arrays-missing.png
+/Users/diko/Documents/traffic-density-classification_web-app/venv/lib/python3.6/site-packages/scipy/ndimage/tests/dots.png
+/Users/diko/Documents/traffic-density-classification_web-app/venv/lib/python3.6/site-packages/flask_bootstrap/static/fonts/glyphicons-halflings-regular.svg
+/Users/diko/Documents/traffic-density-classification_web-app/venv/lib/python3.6/site-packages/flask_bootstrap/static/css/bootstrap.css.map
+/Users/diko/Documents/traffic-density-classification_web-app/venv/lib/python3.6/site-packages/werkzeug/debug/shared/source.png
+/Users/diko/Documents/traffic-density-classification_web-app/venv/lib/python3.6/site-packages/werkzeug/debug/shared/more.png
+/Users/diko/Documents/traffic-density-classification_web-app/venv/lib/python3.6/site-packages/werkzeug/debug/shared/less.png
+/Users/diko/Documents/traffic-density-classification_web-app/venv/lib/python3.6/site-packages/werkzeug/debug/shared/console.png
+/Users/diko/Documents/traffic-density-classification_web-app/static/asset/favicon-32x32.png
+/Users/diko/Documents/traffic-density-classification_web-app/static/asset/files-upload.svg
+/Users/diko/Documents/traffic-density-classification_web-app/static/screenshot.png
+/Users/diko/Documents/traffic-density-classification_web-app/uploads/placeholder.png
+    ~                                                                  15:28:56 
+❯ screencapture -T 10 -P image.png
+    ~                                                          11s   15:29:35 
+❯ launchctl list
+PID        Status  Label
+312     0       com.apple.trustd.agent
+-       0       com.apple.MailServiceAgent
+-       0       com.apple.mdworker.mail
+-       0       com.apple.appkit.xpc.ColorSampler
+299     0       com.apple.cfprefsd.xpc.agent
+-       0       com.apple.coreimportd
+348     0       com.apple.TrustedPeersHelper
+-       0       com.apple.SafariHistoryServiceAgent
+1354    0       com.apple.progressd
+1386    0       com.apple.cloudphotod
+310     0       com.apple.Finder
+1384    0       com.apple.homed
+433     0       com.apple.SafeEjectGPUAgent
+-       0       com.apple.quicklook
+-       0       com.apple.parentalcontrols.check
+-       0       com.apple.PackageKit.InstallStatus
+426     0       com.apple.mediaremoteagent
+-       0       com.apple.FontWorker
+375     0       rugarciap.com.Turbo-Boost-Switcher.3696
+336     0       com.apple.bird
+-       0       com.apple.amp.mediasharingd
+-       0       com.apple.familycontrols.useragent
+-       0       com.apple.AssetCache.agent
+1338    0       com.apple.universalaccessAuthWarn
+341     0       com.apple.nsurlsessiond
+675     0       com.apple.devicecheckd
+-       0       com.apple.syncservices.uihandler
+351     0       com.apple.iconservices.iconservicesagent
+-       0       com.apple.ContactsAgent
+524     0       com.apple.SafariBookmarksSyncAgent
+-       0       com.apple.ManagedClientAgent.agent
+-       0       com.apple.localizationswitcherd
+-       0       com.apple.screensharing.agent
+386     0       com.apple.commerce
+1362    0       com.apple.TMHelperAgent.SetupOffer
+-       0       com.apple.AddressBook.SourceSync
+-       0       com.apple.installerauthagent
+-       0       com.apple.languageassetd
+-       0       com.apple.familynotificationd
+1359    0       com.apple.photolibraryd
+-       0       com.apple.xpc.otherbsd
+-       0       com.apple.sysdiagnose_agent
+370     0       com.apple.TextInputMenuAgent
+-       0       com.apple.bluetoothUIServer
+-       0       com.apple.universalaccessHUD
+677     0       com.apple.assistant_service
+-       0       com.apple.MRTa
+-       0       com.apple.touristd
+411     0       com.apple.CommCenter
+-       0       com.apple.tonelibraryd
+1355    0       com.apple.CloudPhotosConfiguration
+-       0       com.apple.mdworker.bundles
+346     0       com.apple.ctkd
+-       0       com.apple.package-script-service
+319     0       com.apple.secinitd
+1379    0       com.apple.mdworker.shared.0B000000-0000-0000-0000-000000000000
+-       0       com.apple.facebook.xpc
+-       0       com.apple.DataDetectorsLocalSources
+-       0       com.apple.unmountassistant.useragent
+-       0       com.apple.java.InstallOnDemand
+673     0       com.apple.keyboardservicesd
+382     0       com.apple.quicklook.ThumbnailsAgent
+-       0       com.apple.csuseragent
+354     0       com.apple.ContextStoreAgent
+-       0       com.apple.AOSPushRelay
+356     0       com.apple.SocialPushAgent
+-       0       com.apple.accessibility.AXVisualSupportAgent
+439     0       com.apple.xpc.loginitemregisterd
+671     0       com.apple.applespell
+-       0       com.apple.coreservices.UASharedPasteboardProgressUI
+-       0       com.apple.screensharing.menuextra
+396     0       com.apple.AddressBook.ContactsAccountsService
+-       0       com.apple.warmd_agent
+-       0       com.apple.universalaccesscontrol
+537     0       com.apple.Safari.SafeBrowsing.Service
+-       0       com.apple.findmymacmessenger
+-       0       com.apple.FilesystemUI
+409     0       com.apple.ScreenTimeAgent
+-       0       com.apple.pluginkit.pkreporter
+-       0       com.apple.systemprofiler
+335     0       com.apple.cloudd
+-       0       com.apple.noticeboard.agent
+-       0       com.apple.UserNotificationCenterAgent
+-       0       com.apple.cmfsyncagent
+-       0       com.apple.dt.CommandLineTools.installondemand
+-       0       com.apple.ATS.FontValidator
+369     0       com.apple.diagnostics_agent
+-       0       com.apple.appleseed.seedusaged
+-       0       com.apple.LocalAuthentication.UIAgent
+574     0       com.apple.ap.adprivacyd
+-       0       com.apple.PhotoLibraryMigrationUtility.XPC
+413     0       com.apple.apfsuseragent
+410     0       com.apple.networkserviceproxy
+471     0       com.apple.AMPLibraryAgent
+-       0       com.openssh.ssh-agent
+-       0       com.apple.atsd
+-       0       com.apple.cvmsCompAgent3600_x86_64_1
+-       0       com.apple.ContainerRepairAgent
+-       0       com.apple.netauth.user.auth
+-       0       com.apple.siri-distributed-evaluation
+326     0       com.apple.ViewBridgeAuxiliary
+-       0       com.apple.mbbackgrounduseragent
+-       0       com.apple.cvmsCompAgent_x86_64
+311     0       com.apple.lsd
+503     0       com.apple.siri.context.service
+-       0       com.apple.weibo.xpc
+316     0       com.apple.pluginkit.pkd
+-       0       com.apple.security.XPCTimeStampingService
+-       0       com.apple.contacts.donation-agent
+-       0       com.apple.ServicesUIAgent
+-       0       com.apple.ctkbind
+-       0       com.apple.mediastream.mstreamd
+-       0       com.apple.alf.useragent
+329     0       com.apple.tccd
+477     0       com.apple.replayd
+-       0       com.apple.coreservices.uiagent
+-       0       com.apple.icloud.searchpartyuseragent
+-       0       com.apple.AccessibilityVisualsAgent
+359     0       com.apple.Siri.agent
+-       0       com.apple.installd.user
+339     0       com.apple.akd
+392     0       com.apple.CallHistoryPluginHelper
+384     0       com.apple.storeaccountd
+-       0       com.apple.AddressBook.AssistantService
+-       0       com.apple.PIPAgent
+-       0       com.apple.mbfloagent
+-       0       com.apple.printtool.agent
+344     0       com.apple.nsurlstoraged
+362     0       com.apple.askpermissiond
+-       0       com.apple.USBAgent
+-       0       com.apple.ssinvitationagent
+533     0       com.apple.webinspectord
+-       0       com.apple.speech.synthesisserver
+-       0       com.apple.WebKit.PluginAgent
+-       0       com.apple.DiagnosticReportCleanup.plist
+-       0       com.apple.storeuid
+-       0       com.apple.rcd
+-       0       com.apple.printuitool.agent
+-       0       com.apple.NVMeAgent
+-       0       com.apple.speech.speechdatainstallerd
+-       0       com.apple.AOSHeartbeat
+374     0       com.apple.CryptoTokenKit.ahp.agent
+573     0       WhatsApp.9568
+-       0       com.apple.SafariNotificationAgent
+-       0       com.apple.coredatad
+680     0       com.apple.remindd
+-       0       com.apple.appsleep
+380     0       com.apple.coreservices.useractivityd
+-       0       com.apple.screencaptureui.agent
+-       0       com.apple.accounts.dom
+-       0       com.apple.metadata.mdflagwriter
+-       0       com.apple.DictionaryServiceHelper
+991     0       com.apple.speech.speechsynthesisd
+-       0       com.apple.mdworker.shared
+-       0       com.apple.usermanagerhelper
+-       0       com.apple.installandsetup.migrationhelper.user
+435     0       com.apple.SafeEjectGPUService
+383     0       com.apple.imdpersistence.IMDPersistenceAgent
+-       0       com.apple.TrustEvaluationAgent
+474     0       com.apple.cache_delete
+429     0       com.apple.xpc.launchd.oneshot.0x10000002.Spotify
+325     0       com.apple.AMPDeviceDiscoveryAgent
+-       0       com.apple.accessibility.dfrhud
+-       0       com.apple.CallHistorySyncHelper
+-       0       com.apple.colorsync.useragent
+379     0       com.apple.parsecd
+308     0       com.apple.Dock.agent
+385     0       com.apple.parsec-fbf
+320     0       com.apple.dmd
+732     0       com.apple.transparencyd
+430     0       com.apple.AppSSOAgent
+-       0       com.apple.mbuseragent
+343     0       com.apple.security.cloudkeychainproxy3
+301     0       com.apple.UserEventAgent-Aqua
+455     0       com.apple.followupd
+-       0       com.apple.ReportPanic
+334     0       com.apple.identityservicesd
+421     0       com.apple.telephonyutilities.callservicesd
+-       0       com.apple.DwellControl
+-       0       com.apple.security.DiskUnmountWatcher
+412     0       com.apple.CoreLocationAgent
+303     0       com.apple.SecureBackupDaemon
+-       0       com.apple.security.agent
+-       0       com.apple.cfnetwork.AuthBrokerAgent
+-       0       com.spotify.client.startuphelper
+367     0       com.apple.cloudpaird
+482     0       com.apple.storedownloadd
+-       0       com.apple.SpacesTouchBarAgent.app
+-       0       com.apple.coreparsec.silhouette
+324     0       com.apple.coreservices.sharedfilelistd
+317     0       com.apple.pboard
+-       0       com.apple.nowplayingtouchui
+-       0       com.apple.MobileAccessoryUpdater.fudHelperAgent
+-       0       com.apple.reversetemplated
+627     0       com.apple.SafariCloudHistoryPushAgent
+-       0       com.apple.AskPermissionUI
+-       0       com.apple.thermaltrap
+322     0       com.apple.rapportd
+507     0       com.apple.SoftwareUpdateNotificationManager
+534     0       com.apple.CoreSimulator.SimulatorTrampoline
+532     0       com.apple.CoreSimulator.CoreSimulatorService
+313     0       com.apple.secd
+525     0       com.apple.hiservices-xpcservice
+1380    0       com.apple.mdworker.shared.0E000000-0500-0000-0000-000000000000
+-       0       com.apple.BKAgentService
+-       0       com.apple.cvmsCompAgent_x86_64_1
+-       0       com.apple.tencentweibo.xpc
+-       0       com.apple.FCiCloudPrefUpdater
+1378    0       com.apple.mdworker.shared.04000000-0500-0000-0000-000000000000
+-       0       com.apple.preference.displays.MirrorDisplays
+398     0       com.apple.neagent.878568F8-CCE5-4157-8315-22F20DC8FB0A
+333     0       com.apple.accountsd
+338     0       com.apple.cdpd
+353     0       com.apple.routined
+-       0       com.apple.KeyboardAccessAgent
+-       0       com.apple.storelegacy
+693     0       com.apple.OSDUIHelper
+470     0       com.apple.audio.AudioComponentRegistrar
+558     0       com.apple.AssetCacheLocatorService
+407     0       com.apple.lockoutagent
+-       0       com.apple.locationmenu
+-       0       com.apple.videosubscriptionsd
+393     0       com.apple.pbs
+350     0       com.apple.notificationcenterui.agent
+-       0       com.apple.protectedcloudstorage.protectedcloudkeysyncing
+358     0       com.apple.imklaunchagent
+479     0       com.apple.FileProvider
+-       0       com.apple.imcore.imtransferagent
+-       0       com.apple.btsa
+360     0       com.apple.icdd
+726     0       com.apple.EscrowSecurityAlert
+1373    0       com.apple.metadata.mdwrite
+-       0       com.apple.loginwindow.LWWeeklyMessageTracer
+361     0       com.apple.CalendarAgent
+-       0       com.apple.securityuploadd
+-       0       com.apple.RapportUIAgent
+684     0       com.apple.siriknowledged
+-       0       com.apple.powerchime
+364     0       com.apple.sharingd
+585     0       com.googlecode.iterm2.9520
+-       0       com.apple.iCloudUserNotificationsd
+-       0       com.apple.storeassetd
+425     0       com.apple.familycircled
+-       0       com.apple.FontRegistryUIAgent
+-       0       com.apple.RemoteManagementAgent
+-       0       com.apple.TextInputSwitcher
+-       0       com.apple.AMPArtworkAgent
+368     0       com.apple.imagent
+-       0       com.apple.sidecar-relay
+1371    0       com.apple.photoanalysisd
+-       0       com.apple.syncservices.SyncServer
+733     0       com.apple.imautomatichistorydeletionagent
+309     0       com.apple.SystemUIServer.agent
+-       0       com.apple.ATS.FontValidatorConduit
+307     0       com.apple.talagent
+428     0       com.apple.suggestd
+-       0       com.apple.navd
+-       0       com.apple.RemoteDesktop.agent
+372     0       com.apple.amsaccountsd
+-       0       com.apple.VoiceOver
+516     0       com.apple.Safari.1024
+-       0       com.apple.AssistiveControl
+397     0       com.apple.icloud.fmfd
+1256    0       com.apple.iCloudHelper
+-       0       com.apple.CharacterPicker.FileService
+-       0       com.apple.cvmsCompAgent3425AMD_x86_64
+-       0       com.apple.linkedin.xpc
+-       0       com.apple.security.XPCKeychainSandboxCheck
+-       0       com.apple.mdworker.single
+-       0       com.apple.twitter.xpc
+298     0       com.apple.CoreAuthentication.agent
+431     0       com.apple.assistantd
+1352    0       com.apple.studentd
+-       0       com.apple.FollowUpUI
+-       0       com.apple.videoconference.camera
+-       0       com.apple.corespotlightservice
+-       0       com.apple.uikitsystemapp
+-       0       com.apple.controlstrip
+-       0       com.apple.mediaanalysisd
+-       0       com.apple.DiskArbitrationAgent
+-       0       com.apple.assessmentagent
+-       0       com.apple.exchange.exchangesyncd
+1342    0       com.apple.scopedbookmarksagent.xpc
+506     0       com.apple.ReportCrash
+-       0       com.apple.UsageTrackingAgent
+-       0       com.apple.email.maild
+-       0       com.apple.menuextra.battery.helper
+-       0       com.apple.appleseed.seedusaged.postinstall
+395     0       com.apple.Maps.mapspushd
+-       0       com.apple.voicememod
+-       0       com.apple.gamed
+-       0       com.apple.STMUIHelper
+306     0       com.apple.knowledge-agent
+-       0       com.apple.midiserver
+321     0       com.apple.backgroundtaskmanagementagent
+-       0       com.apple.mobiledeviceupdater
+-       0       com.apple.helpd
+-       0       com.apple.quicklook.ui.helper
+390     0       com.apple.wifi.WiFiAgent
+-       0       com.apple.screensharing.MessagesAgent
+-       0       com.apple.diskspaced
+1385    0       com.apple.passd
+-       0       com.apple.DictationIM
+-       0       com.apple.mdmclient.agent
+-       0       com.apple.accessibility.mediaaccessibilityd
+-       0       com.apple.cvmsCompAgent3425AMD_x86_64_1
+-       0       com.apple.mdworker.sizing
+-       0       com.apple.SpeechRecognitionCore.brokerd
+-       0       com.apple.metadata.mdbulkimport
+-       0       com.apple.iokit.IOServiceAuthorizeAgent
+517     0       com.apple.Safari.History
+-       0       com.apple.cvmsCompAgent3600_x86_64
+-       0       com.apple.CoreRoutine.helperservice
+304     0       com.apple.distnoted.xpc.agent
+387     0       com.apple.geod
+-       0       com.apple.syncdefaultsd
+-       0       com.apple.sidecar-display-agent
+-       0       com.apple.accessibility.heard
+352     0       com.apple.corespeechd
+-       0       com.apple.scrod
+-       0       com.apple.spindump_agent
+-       0       com.apple.AquaAppearanceHelper
+-       0       com.apple.security.keychain-circle-notification
+451     0       com.apple.icloud.findmydeviced.findmydevice-user-agent
+-       0       com.apple.ap.adservicesd
+-       0       com.apple.AirPortBaseStationAgent
+-       0       com.apple.proactiveeventtrackerd
+305     0       com.apple.universalaccessd
+-       0       com.apple.accessibility.MotionTrackingAgent
+-       0       com.apple.neagent
+526     0       com.apple.SafariLaunchAgent
+-       0       com.apple.idsfoundation.IDSRemoteURLConnectionAgent
+674     0       com.apple.recentsd
+400     0       com.apple.WiFiVelocityAgent
+349     0       com.apple.usernoted
+-       0       com.apple.SafariPlugInUpdateNotifier
+-       0       com.apple.AddressBook.abd
+-       0       com.apple.ScreenReaderUIServer
+440     0       com.apple.swcd
+365     0       com.apple.AirPlayUIAgent
+427     0       com.apple.corespotlightd
+-       0       com.apple.netauth.user.gui
+337     0       com.apple.xtyped
+-       0       com.apple.TMHelperAgent
+377     0       com.apple.Spotlight
+700     0       com.apple.appstoreagent
+-       0       com.apple.AMPDevicesAgent
+    ~                                                                  15:30:12 
+❯ say "Hi it is me"
+    ~                                                                  15:30:29 
+❯ diskutil list
+/dev/disk0 (internal, physical):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      GUID_partition_scheme                        *251.0 GB   disk0
+   1:                        EFI EFI                     314.6 MB   disk0s1
+   2:                 Apple_APFS Container disk1         250.7 GB   disk0s2
+
+/dev/disk1 (synthesized):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      APFS Container Scheme -                      +250.7 GB   disk1
+                                 Physical Store disk0s2
+   1:                APFS Volume Flash Drive - Data      52.5 GB    disk1s1
+   2:                APFS Volume Preboot                 82.3 MB    disk1s2
+   3:                APFS Volume Recovery                528.5 MB   disk1s3
+   4:                APFS Volume VM                      1.1 GB     disk1s4
+   5:                APFS Volume Flash Drive             11.0 GB    disk1s5
+
+    ~                                                                  15:30:42 
+❯ brew
+install Example usage:
+  brew search [TEXT|/REGEX/]
+  brew info [FORMULA...]
+  brew install FORMULA...
+  brew update
+  brew upgrade [FORMULA...]
+  brew uninstall FORMULA...
+  brew list [FORMULA...]
+
+Troubleshooting:
+  brew config
+  brew doctor
+  brew install --verbose --debug FORMULA
+
+Contributing:
+  brew create [URL [--no-fetch]]
+  brew edit [FORMULA...]
+
+Further help:
+  brew commands
+  brew help [COMMAND]
+  man brew
+  https://docs.brew.sh
+      ~                                                                  15:31:51 
+❯ cd Documents
+    ~/Documents    master ?3                                        15:31:59 
+❯ ls
+belajar-react-native                   traffic-density-classification_web-app
+praxis-academy
+    ~/Documents    master ?3                                        15:32:11 
+❯ cp /belajar-react-native/img.jpg img2.jpg
+cp: /belajar-react-native/img.jpg: No such file or directory
+    ~/Documents    master ?4                                        15:34:10 
+❯ cp /belajar-react-native/img.jpg/ img2.jpg
+cp: /belajar-react-native/img.jpg/: No such file or directory
+    ~/Documents    master ?4                                        15:34:23 
+❯ open /belajar-react-native/img.jpg/
+The file /belajar-react-native/img.jpg does not exist.
+    ~/Documents    master ?4                                        15:34:36 
+❯ open belajar-react-native/img.jpg/
+    ~/Documents    master ?4                                        15:34:43 
+❯ cd ..
+    ~                                                                  15:35:06 
+❯ clear
+    ~                                                                  15:35:10 
+❯ cd Documents
+    ~/Documents    master ?4                                        15:35:14 
+❯ ls
+belajar-react-native                   traffic-density-classification_web-app
+praxis-academy
+    ~/Documents    master ?4                                        15:35:16 
+❯ open belajar-react-native/img.jpg
+    ~/Documents    master ?4                                        15:35:36 
+❯ cp belajar-react-native/img.jpg img2.jpg
+    ~/Documents    master ?5                                        15:35:57 
+❯ mv belajar-react-native/img.jpg ./Documents
+    ~/Documents    master ?5                                        15:36:27 
+❯ mv belajar-react-native/img.jpg belajar-react-native/img2.jpg
+mv: rename belajar-react-native/img.jpg to belajar-react-native/img2.jpg: No such file or directory
+    ~/Documents    master ?5                                        15:36:53 
+❯ mv belajar-react-native/img2.jpg belajar-react-native/img.jpg
+    ~/Documents    master ?6                                        15:37:19 
+❯ mkdir react-native
+    ~/Documents    master ?6                                        15:37:28 
+❯ rmdir react-native
+    ~/Documents    master ?6                                        15:37:38 
+❯ mkdir r
+    ~/Documents    master ?6                                        15:38:08 
+❯ cd r
+    ~/Documents/r    master ?6                                      15:38:11 
+❯ mkdir e
+    ~/Documents/r    master ?6                                      15:38:15 
+❯ cd ..
+    ~/Documents    master ?6                                        15:38:18 
+❯  cd ..
+    ~                                                                  15:38:21 
+❯ cd Documents
+    ~/Documents    master ?6                                        15:38:27 
+❯ sudo rmdir r
+Password:
+rmdir: r: Directory not empty
+    ~/Documents    master ?6                                        15:38:42 
+❯ top
+    ~/Documents    master ?6                                 8s   15:39:03 
+❯ help
+zsh: command not found: help
+    ~/Documents    master ?6                                        15:39:11 
+❯ help help
+zsh: command not found: help
+    ~/Documents    master ?6                                        15:39:18 
+❯ whatis mkdir
+    ~/Documents    master ?6                                 5s   15:39:29 
+❯ man mkdir
