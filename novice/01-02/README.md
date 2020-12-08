@@ -4,8 +4,6 @@
 
 # let, var, dan const.
 
----
-
 [JavaScript Hoisting](https://www.w3schools.com/js/js_hoisting.asp)
 
 **let** adalah tipe variabel yang bisa diubah nilainya.
@@ -42,8 +40,6 @@ Nilai y adlah undefined
 Nilai z adalah 27
 Nilai x, y, dan z adalah 10, 4, 27
 ```
-
----
 
 ## How to declare an array?
 
@@ -87,8 +83,6 @@ sleepPlease();
 
 Function bisa dimasukkan ke dalam variabel dengan catatan function harus berisi return.
 
----
-
 ```jsx
 const wakeMeUp = function(name){
     greet = `Wake up, ${name}!`;
@@ -97,5 +91,3 @@ const wakeMeUp = function(name){
 x = wakeMeUp("Diko");
 console.log(x);
 ```
-
----
