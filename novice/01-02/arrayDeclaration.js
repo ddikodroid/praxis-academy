@@ -14,3 +14,6 @@ console.log(array3);
 const array4 = [...array1, ...array2];
 console.log(array4);
 console.log(`Panjang array4 adalah ${array4.length}`);
+
+const [first, , third] = array1;
+console.log(first, third);
