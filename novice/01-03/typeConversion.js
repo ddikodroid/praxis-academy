@@ -26,7 +26,7 @@ console.log(Number(true));
 //Boolean Conversion
 
 //Value 0, empty string, null, undefined, NaN ->
-//Selain itu -> true
+//Selain itu + string "0" -> true
 console.log(Boolean(1))
 console.log(Boolean(0))
 console.log(Boolean("Diko"))
