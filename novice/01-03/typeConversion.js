@@ -22,3 +22,12 @@ console.log(bukanBilangan);
 // null -> 0
 // true and false -> 1 and 0
 console.log(Number(true));
+
+//Boolean Conversion
+
+//Value 0, empty string, null, undefined, NaN ->
+//Selain itu -> true
+console.log(Boolean(1))
+console.log(Boolean(0))
+console.log(Boolean("Diko"))
+console.log(Boolean(NaN));
